@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f92878197a8dd54298df026bce7d3ad, type: 3}
+  m_Name: DefaultRemoteRenderingServiceProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  size: 2
+  sessionOverride: 
+  maxLeaseTime: 1800
+  autoRenewLease: 1
+  autoReconnect: 1
+  autoReconnectRate: 15
+  alwaysIncludeDefaultModels: 0
+  remoteRenderingDomains:
+  - Label: West US 2
+    Value: westus2
+    Domain: westus2.mixedreality.azure.com
+  - Label: Australia East
+    Value: australiaeast
+    Domain: australiaeast.mixedreality.azure.com
+  - Label: East US
+    Value: eastus
+    Domain: eastus.mixedreality.azure.com
+  - Label: East US 2
+    Value: eastus2
+    Domain: eastus2.mixedreality.azure.com
+  - Label: Japan East
+    Value: japaneast
+    Domain: japaneast.mixedreality.azure.com
+  - Label: North Europe
+    Value: northeurope
+    Domain: northeurope.mixedreality.azure.com
+  - Label: South Central US
+    Value: southcentralus
+    Domain: southcentralus.mixedreality.azure.com
+  - Label: Southeast Asia
+    Value: southeastasia
+    Domain: southeastasia.mixedreality.azure.com
+  - Label: UK South
+    Value: uksouth
+    Domain: uksouth.mixedreality.azure.com
+  - Label: West Europe
+    Value: westeurope
+    Domain: westeurope.mixedreality.azure.com
+  AccountId: c7f2fae5-df4d-4baa-a607-afa715dd834d
+  AccountDomain: japaneast.mixedreality.azure.com
+  AccountKey: Q44X5Lu2aoneUkcC4ptXf/hnkRh0rQw3cDXu31Vnkj0=
+  storageAccountName: forarr
+  storageModelContainer: output
+  storageModelPathByUsername: 0
+  StorageAccountKey: 5EivlLLLXw3RgYSVgzrxQuN7REr6WPpN/Jd16GuwGNnlX4yhlfHso+BEakAiO/WXP+pnXg2b0Fgo4lK5cOnaIQ==
